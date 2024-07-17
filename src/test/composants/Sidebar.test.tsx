@@ -4,12 +4,7 @@ import '@testing-library/jest-dom'
 
 
 describe('PersistentDrawerLeft component', () => {
-  test('renders Cyberdian logo', () => {
-    render(<PersistentDrawerLeft />);
-    const logoElement = screen.getByAltText('Cyberdian-logo');
-    expect(logoElement).toBeInTheDocument();
-  });
-
+ 
   test('opens and closes the drawer when buttons are clicked', () => {
     render(<PersistentDrawerLeft />);
     const openButton = screen.getByLabelText('open drawer');

@@ -108,8 +108,8 @@ export default function PersistentDrawerLeft() {
                top: '50%',
                transform: 'translate(-50%, -50%)'
         }}>
-          <a href="https://www.cyberdian.com"> 
-          <img  style={{width: "20%", height: "10%" }} src="Cyberdian-logo.png" alt="Cyberdian-logo"  /></a>
+          <a href="https://fr.react.dev"> 
+          <img  style={{width: "100%", height: "100%" }} src="./src/assets/react.svg" alt="Lien "  /></a>
           
           </div>
         </Toolbar>
